@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * main ~ is the essintial function
+ * main -  Entry point
  *
- * Description: A program that display a sentence using puts
+ * Description: A C  program that display a sentence using puts
  *
  * Return: Always 0 (Success)
 */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
