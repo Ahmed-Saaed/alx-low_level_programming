@@ -1,27 +1,24 @@
 #include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
  * main - Entry point
  *
- * Description:
+ * Description: a program to display the alphabet in lower case
  *
  * Return: Always 0 (Success)
 */
 int main(void)
 {
 	char c = 'a';
-	char C = 'A';
 
 	while (c <= 'z')
 	{
+		if (c == 'q' || c == 'e')
+			c++;
 		putchar(c);
 		c++;
-	}
-	while (C <= 'Z')
-	{
-		putchar(C);
-		C++;
 	}
 
 	putchar('\n');
