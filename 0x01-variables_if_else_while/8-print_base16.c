@@ -17,7 +17,7 @@ int main(void)
 		putchar(limit);
 		if (limit == 57)
 			limit += 39;
-		limit++
+		limit++;
 	}
 	putchar('\n');
 	return (0);
