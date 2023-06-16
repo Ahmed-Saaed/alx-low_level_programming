@@ -10,14 +10,15 @@
 */
 int main(void)
 {
-	char c = 'z';
+	int limit = 48;
 
-	while (c >= 'a')
+	for (limit < 103)
 	{
-		putchar(c);
-		c--;
+		putchar(limit);
+		if (limit == 57)
+			limit += 39;
+		limit++
 	}
 	putchar('\n');
-
 	return (0);
 }
