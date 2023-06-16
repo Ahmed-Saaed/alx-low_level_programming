@@ -10,15 +10,22 @@
 */
 int main(void)
 {
-	int limit = 48;
+	int num = 0;
 
-	for (;limit < 103;)
+	while (num <=  0)
 	{
-		putchar(limit);
-		if (limit == 57)
-			limit += 39;
-		limit++
+		putchar(num + 48);
+		
+		if (num)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+
+		num++;	
 	}
+	
 	putchar('\n');
+	
 	return (0);
 }
