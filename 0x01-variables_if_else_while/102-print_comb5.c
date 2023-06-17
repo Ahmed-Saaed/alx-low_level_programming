@@ -14,6 +14,7 @@ int main(void)
 
 	for (n1 = 0; n1 <= 99; n1++)
 	{
+		n1 = n2
 		for (n2 = 0; n2 <= 99; n2++)
 		{
 			if (n2 != n1)
