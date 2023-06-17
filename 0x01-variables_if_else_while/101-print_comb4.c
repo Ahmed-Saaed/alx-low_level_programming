@@ -18,7 +18,7 @@ int main(void)
 		{
 			for (n3 = 0; n3 <= 9; n3++)
 			{
-				if (n1 != n2 && n1 < n2)
+				if (n1 != n2 && n1 < n2 && n2 != n3 && n2 < n3)
 				{
 					putchar(n1 + 48);
 					putchar(n2 + 48);
