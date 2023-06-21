@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * isalpha - a function to deetermine type
+ * _isalpha - a function to deetermine type
  *
  * @c: a parameter
  *
