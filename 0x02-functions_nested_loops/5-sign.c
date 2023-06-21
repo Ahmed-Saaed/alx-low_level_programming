@@ -2,9 +2,9 @@
 
 
 /**
- * print_sign is a function
+ * print_sign -  is a function
  *
- *@n: is a parameter
+ * @n: is a parameter
  *
  * Return: 1 , 0 ,-1
 */
