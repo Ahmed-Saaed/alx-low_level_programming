@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * int _islower(int c) - to display numbers 
- * @c: is a parameter 
+ *  _islower  - to display numbers
+ *
+ * @c: is a parameter
+ *
  * Return: returns  1 if `c` is lower case
  *		otherwise return 0
 */
