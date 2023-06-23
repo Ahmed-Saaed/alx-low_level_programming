@@ -10,12 +10,7 @@
 * Return: void
 */
 
-void print_remaining_days(int month, int day, int year)
-{
-	/**
-	 * leap year when it can be divided
-	 * by 100 and 400 pr by 4 evenly
-	*/
+
 void print_remaining_days(int month, int day, int year)
 {
 	if (year % 4 == 0 || (year % 400 == 0 && year % 100 == 0))
