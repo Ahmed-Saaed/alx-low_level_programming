@@ -2,6 +2,9 @@
 
 /**
  * print_diagonal - printing lines diagonal
+ *
+ * @n: just a parameter
+ *
  * Return: void
 */
 
