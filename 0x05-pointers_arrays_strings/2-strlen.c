@@ -8,7 +8,9 @@
 
 int _strlen(char *s)
 {
-	for (int l = 0; *s++;)
-		a++;
-	return (a);
+	int l;
+
+	for (l = 0; *s++;)
+		l++;
+	return (l);
 }
