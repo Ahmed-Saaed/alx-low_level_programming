@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcpy - copy the string pointed 
+ * _strcpy - copy the string pointed
  * @dest: char to check
  * @src: char to check
  * Return: 0 is success
