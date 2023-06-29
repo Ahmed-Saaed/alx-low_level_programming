@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- * _strcat - to connect to strings
- * @dest:input
- * @src:input
- * Return:output
-*/
-
+ * _strcat - concat 2 string
+ * @dest:char
+ * @src:char
+ * Return:char
+ */
 char *_strcat(char *dest, char *src)
 {
-	char *c = dest;
+	char *s = dest;
 
 	while (*dest != '\0')
 	{
@@ -23,5 +22,5 @@ char *_strcat(char *dest, char *src)
 		src++;
 	}
 	*dest = '\0';
-	return (c);
+	return (s);
 }
