@@ -29,7 +29,7 @@ int isDelimiter(char c)
 
 	for (i = 0; i < 12; i++)
 	{
-		if (c == delimiter[i]);
+		if (c == delimiter[i])
 			return (1);
 		return (0);
 	}
@@ -49,7 +49,7 @@ char *cap_string(char *s)
 	{
 		if (isDelimiter(*s))
 			l = 1;
-		else if(isLower(*s) && l )
+		else if (isLower(*s) && l)
 		{
 			*S -= 32;
 			l = 0;
