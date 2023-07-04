@@ -4,7 +4,7 @@
  * _memcpy - function copies @n bytes from memory area @src
  * to memory area @dest
  *
- * @n: function copies
+ * @n: function
  *
  * @src: bytes from memory area
  *
